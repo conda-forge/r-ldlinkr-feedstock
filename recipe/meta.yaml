@@ -1,4 +1,4 @@
-{% set version = "1.2.2" %}
+{% set version = "1.2.3" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/LDlinkR_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/LDlinkR/LDlinkR_{{ version }}.tar.gz
-  sha256: 4ac0a865a87c33662a532f30ac51587dcf8b9c3dc95cd6f76978f79a0a21c47f
+  sha256: 3cbe6aee8c8657b63bde27cb9e2fe20e96694f47dbbb8ada98d33128c18179d1
 
 build:
   merge_build_host: true  # [win]
-  number: 1
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
