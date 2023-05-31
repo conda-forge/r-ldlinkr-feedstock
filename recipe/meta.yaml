@@ -1,4 +1,4 @@
-{% set version = "1.2.3" %}
+{% set version = "1.3.0" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/LDlinkR_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/LDlinkR/LDlinkR_{{ version }}.tar.gz
-  sha256: 3cbe6aee8c8657b63bde27cb9e2fe20e96694f47dbbb8ada98d33128c18179d1
+  sha256: 81dbe6817b6bab6c44f1d34f509123e0242360348285d5377624bc831b33832a
 
 build:
   merge_build_host: true  # [win]
