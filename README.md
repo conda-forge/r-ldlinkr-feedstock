@@ -1,11 +1,11 @@
-About r-ldlinkr
-===============
+About r-ldlinkr-feedstock
+=========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-ldlinkr-feedstock/blob/main/LICENSE.txt)
 
 Home: https://ldlink.nci.nih.gov
 
 Package license: GPL-2.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-ldlinkr-feedstock/blob/main/LICENSE.txt)
 
 Summary: Provides access to the 'LDlink' API (<https://ldlink.nci.nih.gov/?tab=apiaccess>) using the R console.  This programmatic access facilitates researchers who are interested in performing batch queries in 1000 Genomes Project (2015) <doi:10.1038/nature15393> data using 'LDlink'. 'LDlink' is an interactive and powerful suite of web-based tools for querying germline variants in human population groups of interest. For more details, please see Machiela et al. (2015) <doi:10.1093/bioinformatics/btv402>.
 
